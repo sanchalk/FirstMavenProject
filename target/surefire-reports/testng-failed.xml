@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression suite]">
+  <test name="Regresssion test(failed)">
+    <classes>
+      <class name="FirstMavenProject.FirstMavenProject.CreateTask">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test6"/>
+          <include name="setup"/>
+          <include name="Test4"/>
+          <include name="Test5"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- FirstMavenProject.FirstMavenProject.CreateTask -->
+    </classes>
+  </test> <!-- Regresssion test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

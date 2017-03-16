@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 410.278 sec <<< FAILURE! - in TestSuite
+Test1(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 30.315 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test1(CreateTask.java:42)
+
+Test2(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 28.334 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test2(CreateTask.java:58)
+
+Test3(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 29.16 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test3(CreateTask.java:90)
+
+Test4(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 28.867 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test4(CreateTask.java:74)
+
+Test5(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 20.718 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test5(CreateTask.java:106)
+
+Test6(FirstMavenProject.FirstMavenProject.CreateTask)  Time elapsed: 30.786 sec  <<< FAILURE!
+java.lang.AssertionError: fail to select item expected [true] but found [false]
+	at FirstMavenProject.FirstMavenProject.CreateTask.Test6(CreateTask.java:123)
+
