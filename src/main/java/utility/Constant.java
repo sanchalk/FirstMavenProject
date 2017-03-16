@@ -10,5 +10,6 @@ public class Constant
 	public static final String username ="Jennifer";
 	public static final	String username1 ="Ryan";	
 	
-	public static final	String admin =" ";	
+	public static final	String Actitimeusername ="admin";	
+	public static final	String password ="manager";	
 }

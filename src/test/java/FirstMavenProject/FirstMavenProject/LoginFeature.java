@@ -27,7 +27,7 @@ public class LoginFeature
 	public void Test1()
 	{
 		LoginPage loginpage = new LoginPage(driver);
-		String val= loginpage.validLogin("admin", "manager");
+		String val= loginpage.validLogin(Constant.Actitimeusername, Constant.password);
 		Assert.assertTrue(val.contains("Enter"),"fail to login");
 	}
 	
@@ -35,7 +35,7 @@ public class LoginFeature
 	public void Test2()
 	{
 		LoginPage loginpage = new LoginPage(driver);
-		String val= loginpage.inValidLogin("admin", "manager1");
+		String val= loginpage.inValidLogin(Constant.Actitimeusername, Constant.password);
 		Assert.assertTrue(val.contains("Please try again."),"may be login");
 	}
 	
